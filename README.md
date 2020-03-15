@@ -26,3 +26,7 @@ Run `Add-AppxPackage .\debian.appx`
 #### Start Debian.
 
 Run `debian`
+
+### Upgrade stretch to buster.
+
+Run `wget https://raw.githubusercontent.com/brettjrea/Windows_WSL_Debian/master/buster.sh`
