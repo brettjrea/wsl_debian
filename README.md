@@ -27,3 +27,7 @@ Run `Add-AppxPackage .\debian.appx`
 #### Start Debian.
 
 Run `debian`
+
+### Unregister from WSL
+
+Run `wsl --unregister Debian`
