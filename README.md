@@ -28,6 +28,12 @@ Run `Add-AppxPackage .\debian.appx`
 
 Run `debian`
 
+```
+wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
+wget https://raw.githubusercontent.com/brettjrea/Windows_WSL_Debian/master/buster.sh &&
+bash buster.sh
+```
+
 ### Unregister from WSL
 
 Run `wsl --unregister Debian`
