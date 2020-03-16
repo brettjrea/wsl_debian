@@ -15,7 +15,7 @@ Run
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
-#### Install Debian for WSL Windows Store App.
+#### Install Debian.
 
 Link for Debian Stretch:
 ```
@@ -28,13 +28,11 @@ Run `Add-AppxPackage .\debian.appx`
 
 Run `debian`
 
+### Upgrade to Buster.
+
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
 wget --no-check-certificate https://raw.githubusercontent.com/brettjrea/Windows_WSL_Debian/master/buster.sh &&
 bash fixscripts.sh &&
-bash buster.sh
+sudo bash buster.sh
 ```
-
-### Unregister from WSL
-
-Run `wsl --unregister Debian`
