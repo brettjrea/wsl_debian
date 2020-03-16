@@ -15,3 +15,5 @@ apt upgrade -y &&
 apt autoremove -y
 ### Full upgrade
 apt full-upgrade
+### Check Release
+cat /etc/os-release
