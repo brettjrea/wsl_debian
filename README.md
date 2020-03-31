@@ -12,12 +12,10 @@ Choose `YES` at prompt.
 
 Run 
 
-<script src="https://gist.github.com/brettjrea/9953e7530aa9bbeda25a61e54e5f7f7f.js"></script>
-
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
-{% gist 56847c8edd4f18352cf0e43dd2673d5f %}
+
 #### Install Debian.
 
 Link for Debian Stretch:
