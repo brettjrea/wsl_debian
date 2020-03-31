@@ -1,3 +1,6 @@
+---
+layout: post
+---
 
 # Windows_WSL_Debian
 
