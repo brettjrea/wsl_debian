@@ -17,7 +17,7 @@ Run
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
-
+{% gist 56847c8edd4f18352cf0e43dd2673d5f %}
 #### Install Debian.
 
 Link for Debian Stretch:
