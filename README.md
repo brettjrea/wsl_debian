@@ -1,9 +1,3 @@
----
-title: Windows_WSL_Debian
-layout: page
-Permalink: /Windows_WSL_Debian/
-navigation_weight: 6
----
 # Windows_WSL_Debian
 
 #### Open powershell from powerusers menu.
