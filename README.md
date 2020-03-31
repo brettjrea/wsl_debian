@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 ---
 
 # Windows_WSL_Debian
