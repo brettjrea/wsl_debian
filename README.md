@@ -11,6 +11,9 @@ Choose `YES` at prompt.
 #### Enable Windows Optional Feature Microsoft-Windows-Subsystem-Linux.
 
 Run 
+
+<script src="https://gist.github.com/brettjrea/9953e7530aa9bbeda25a61e54e5f7f7f.js"></script>
+
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
