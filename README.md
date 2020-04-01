@@ -2,7 +2,7 @@
 title: WSL_Debian
 layout: page
 permalink: /WSL_Debian/
-navigation_weight: 6
+repository_weight: 2
 ---
 
 # Windows_WSL_Debian
