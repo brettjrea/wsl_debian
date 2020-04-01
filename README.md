@@ -1,6 +1,6 @@
 ---
 title: WSL_Debian
-layout: page
+layout: repos
 permalink: /WSL_Debian/
 repository_weight: 2
 ---
