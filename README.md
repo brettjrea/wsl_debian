@@ -11,7 +11,7 @@ repository_weight: 2
 
 Press <kbd>WIN</kbd>+<kbd>X</kbd> then <kbd>A</kbd> to open Windows Powershell (Admin) from powerusers menu.
 
-Press <kbd>ALT</kbd>+<kbd>Y</kbd> to select <kbd><samp>Yes</samp></kbd> at the UAC prompt.
+Press <kbd>ALT</kbd>+<kbd>Y</kbd> to select <kbd>Yes</kbd> at the UAC prompt.
 
 ### Enable Windows Optional Feature Microsoft-Windows-Subsystem-Linux.
 
@@ -21,7 +21,7 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
-and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd><samp>Enter</samp></kbd>
+and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd>Enter</kbd>
 
 ### Install Debian (stretch).
 
@@ -31,7 +31,7 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 Invoke-WebRequest -Uri https://aka.ms/wsl-debian-gnulinux -OutFile debian.appx -UseBasicParsing
 ```
 
-and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd><samp>Enter</samp></kbd>
+and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd>Enter</kbd>
 
 ### Add Debian package.
 
@@ -39,7 +39,7 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 ```Add-AppxPackage .\debian.appx```
 
-and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd><samp>Enter</samp></kbd>
+and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd>Enter</kbd>
 
 #### Start Debian.
 
@@ -47,7 +47,7 @@ Type:
 
 `debian` 
 
-and press <kbd><samp>Enter</samp></kbd>
+and press <kbd>Enter</kbd>
 
 ### Upgrade to Buster.
 
@@ -60,4 +60,4 @@ bash fixscripts.sh &&
 sudo bash buster.sh
 ```
 
-and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd><samp>Enter</samp></kbd>
+and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd>Enter</kbd>
