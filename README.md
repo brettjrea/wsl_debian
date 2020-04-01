@@ -7,36 +7,51 @@ repository_weight: 2
 
 # Windows_WSL_Debian
 
-#### Open powershell from powerusers menu.
+### Open Windows Powershell from powerusers menu.
 
-Press `WIN+X` to open powerusers menu.
+Press <kbd>WIN</kbd>+<kbd>X</kbd> then <kbd>A</kbd> to open Windows Powershell (Admin) from powerusers menu.
 
-Press `A` or click `Windows Powershell (Admin)`.
+Press <kbd>ALT</kbd>+<kbd>Y</kbd> to select <kbd><samp>Yes</samp></kbd> at the UAC prompt.
 
-Select `YES` at prompt.
+### Enable Windows Optional Feature Microsoft-Windows-Subsystem-Linux.
 
-#### Enable Windows Optional Feature Microsoft-Windows-Subsystem-Linux.
-
-Run 
+Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
-#### Install Debian.
+and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd><samp>Enter</samp></kbd>
 
-Link for Debian Stretch:
+### Install Debian (stretch).
+
+Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
+
 ```
 Invoke-WebRequest -Uri https://aka.ms/wsl-debian-gnulinux -OutFile debian.appx -UseBasicParsing
 ```
 
-Run `Add-AppxPackage .\debian.appx`
+and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd><samp>Enter</samp></kbd>
+
+### Add Debian package.
+
+Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
+
+```Add-AppxPackage .\debian.appx```
+
+and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd><samp>Enter</samp></kbd>
 
 #### Start Debian.
 
-Run `debian`
+Type:
+
+`debian` 
+
+and press <kbd><samp>Enter</samp></kbd>
 
 ### Upgrade to Buster.
+
+Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
@@ -44,3 +59,5 @@ wget --no-check-certificate https://raw.githubusercontent.com/brettjrea/Windows_
 bash fixscripts.sh &&
 sudo bash buster.sh
 ```
+
+and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd><samp>Enter</samp></kbd>
