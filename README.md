@@ -11,9 +11,9 @@ repository_weight: 2
 
 Press `WIN+X` to open powerusers menu.
 
-Select `Windows Powershell (Admin)`.
+Press `A` or click `Windows Powershell (Admin)`.
 
-Choose `YES` at prompt.
+Select `YES` at prompt.
 
 #### Enable Windows Optional Feature Microsoft-Windows-Subsystem-Linux.
 
