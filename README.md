@@ -25,7 +25,7 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
-and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd>Enter</kbd>
+and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
 ---
 
@@ -37,7 +37,7 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 Invoke-WebRequest -Uri https://aka.ms/wsl-debian-gnulinux -OutFile debian.appx -UseBasicParsing
 ```
 
-and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd>Enter</kbd>
+and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
 ---
 
@@ -47,13 +47,13 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 ```Add-AppxPackage .\debian.appx```
 
-and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd>Enter</kbd>
+and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
 ---
 
 ### 5. Start Debian.
 
-Type:
+Type into Windows Powershell:
 
 `debian` 
 
@@ -72,4 +72,4 @@ bash fixscripts.sh &&
 sudo bash buster.sh
 ```
 
-and paste into Powershell with <kbd>CTRL</kbd>+<kbd>V</kbd> and press <kbd>Enter</kbd>
+and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
