@@ -9,6 +9,10 @@ repository_weight: 2
 
 ---
 
+The third tool in the modern developer toolbox is an instance of linux to run some useful scripts and services on. Developers used to need to either dual boot there machines have a seperate machine, or create memory hogging virtual machines. In recent times though we have advanced technologies like Docker and the Windows Subsystem for Linux. These tools allow for slimmer services that share the local operating system where it can and reducing the amount of memory overhead. Although I enjoy using Docker there is a learning curve if you want to write your own docker compose files, for this reason I recommend using Windows Subsytem for Linux in the past I have used the Canonical sponsored Ubuntu 18.04 LTS 'Bionic' but recently the pure opensource parent distro Debian 10 LTS 'Buster' released and I find its package repository has more up to date versions of some common tools like NPM, NodeJS, and PHP. The package repository is purely open source and you can get MySql installed but the MySql fork MariaDb is a perfect opensource drop in replacement from the same creator. If this all sounds good to you below is a how-to on Enabling WSL, Downloading, Installing and launching and Upgrading Debian all from the Windows Powershell.
+
+---
+
 ### 1. Open Windows Powershell from powerusers menu.
 
 Press <kbd>WIN</kbd>+<kbd>X</kbd> then <kbd>A</kbd> to open Windows Powershell (Admin) from powerusers menu.
@@ -29,7 +33,7 @@ and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter
 
 ---
 
-### 3. Install Debian (stretch).
+### 3. Download Debian (stretch).
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
